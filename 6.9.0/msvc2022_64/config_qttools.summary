@@ -1,0 +1,15 @@
+
+Qt Tools:
+  Qt Assistant ........................... yes
+  libclang found ......................... yes
+  Clang-based lupdate parser ............. no
+  Qt Widgets Designer .................... yes
+  Qt Distance Field Generator ............ yes
+  Qt Linguist ............................ yes
+  pixeltool .............................. yes
+  qdbus .................................. yes
+  QDoc ................................... yes
+  Qt Attributions Scanner ................ yes
+  qtdiag ................................. yes
+  qtplugininfo ........................... yes
+WARNING: The Clang-based lupdate parser will not be available. Suitable LLVM and Clang C++ libraries have not been found. You will need to set the FEATURE_clangcpp CMake variable to ON to re-evaluate this check.
