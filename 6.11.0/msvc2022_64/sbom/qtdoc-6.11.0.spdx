@@ -1,0 +1,173 @@
+SPDXVersion: SPDX-2.3
+DataLicense: CC0-1.0
+SPDXID: SPDXRef-DOCUMENT
+DocumentName: qtdoc-6.11.0
+DocumentNamespace: https://qt.io/spdxdocs/qtdoc-6.11.0-host-windows-amd64-target-windows-msvc-amd64-26f4ed92-f440-533f-ab8a-aafc32b65728
+Creator: Organization: TheQtCompany
+Creator: Tool: Qt Build System
+CreatorComment: <text>This SPDX document was created from CMake 3.30.5, using the qt
+build system from https://code.qt.io/cgit/qt/qtbase.git/tree/cmake/QtPublicSbomHelpers.cmake</text>
+Created: 2026-03-17T20:33:34Z
+ExternalDocumentRef: DocumentRef-qtbase https://qt.io/spdxdocs/qtbase-8ba7ea4b+HEAD-host-windows-amd64-target-windows-msvc-amd64-28440e83-5de2-5713-913f-0c7b6d652144 SHA1: 4b63c595e3feb2ef60b5252ef5a9a5e189c07d6f
+ExternalDocumentRef: DocumentRef-qtdeclarative https://qt.io/spdxdocs/qtdeclarative-e602a097+HEAD-host-windows-amd64-target-windows-msvc-amd64-c49b67e1-b044-5a61-9d0c-8ce7fe33aab8 SHA1: 1c49f050d7a40d4097d935859fb1b533c350f32e
+ExternalDocumentRef: DocumentRef-qttasktree https://qt.io/spdxdocs/qttasktree-4d594e7+HEAD-host-windows-amd64-target-windows-msvc-amd64-ff076c19-1776-5b9b-b6f8-1cc9888aa3cd SHA1: 6d6658d31e9cfcd3ba2e9d3503721053c869e906
+
+PackageName: MSVC
+SPDXID: SPDXRef-compiler
+PackageVersion: 19.39.33520.0
+PackageDownloadLocation: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageSupplier: Organization: Anonymous
+FilesAnalyzed: false
+PackageSummary: <text>The compiler as identified by CMake, running on Windows (AMD64)</text>
+PrimaryPackagePurpose: APPLICATION
+Relationship: SPDXRef-compiler BUILD_DEPENDENCY_OF SPDXRef-Package-qtdoc
+RelationshipComment: <text>SPDXRef-Package-qtdoc is built by compiler MSVC version 19.39.33520.0</text>
+
+PackageName: qtdoc
+SPDXID: SPDXRef-Package-qtdoc
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:qt:qtdoc:6.11.0:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:generic/TheQtCompany/qtdoc@6.11.0
+PackageVersion: 6.11.0
+ExternalRef: PACKAGE-MANAGER purl pkg:generic/TheQtCompany/qtdoc@6.11.0
+PackageSupplier: Organization: TheQtCompany
+PackageDownloadLocation: git://code.qt.io/qt/qtdoc.git
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: Copyright (C) The Qt Company Ltd. and other contributors.
+PackageHomePage: https://qt.io
+PackageComment: <text>Built by CMake 3.30.5 with RelWithDebInfo;Debug configuration for Windows (AMD64)
+qtdoc was configured with:
+    qt-configure-module <sources>/qtdoc -- -DFFMPEG_DIR=C:\FFmpeg-n7.1.3\build\msvc\installed -DQT_DEPLOY_FFMPEG=TRUE -DFEATURE_clangcpp=OFF -DINPUT_headersclean=ON -DCMAKE_MAKE_PROGRAM=C:\Utils\Ninja\ninja.exe -DQT_INSTALL_CONFIG_INFO_FILES=ON -DQT_GENERATE_SBOM=ON -DQT_GENERATE_SOURCE_SBOM=ON -DQT_SBOM_REQUIRE_GENERATE_CYDX_V1_6=ON -DQT_SBOM_VERIFY_CYDX_V1_6=ON -DQT_SBOM_PYTHON_INTERP=C:\Python310_64\python.exe -DQT_SBOM_PYTHON_APPS_PATH=C:\Python310_64\Scripts -DQT_LINT_SOURCE_SBOM=ON -DQT_INTERNAL_SBOM_DEFAULT_CHECKS=ON -DQT_INTERNAL_SBOM_AUDIT=ON -DQT_INTERNAL_SBOM_AUDIT_NO_ERROR=ON -DQT_BUILD_TESTS=OFF -DCMAKE_AUTOGEN_VERBOSE=ON -DCMAKE_MESSAGE_LOG_LEVEL=STATUS -DCMAKE_C_COMPILER_LAUNCHER=sccache -DCMAKE_CXX_COMPILER_LAUNCHER=sccache -DBUILD_WITH_PCH=OFF
+</text>
+FilesAnalyzed: false
+BuiltDate: 2026-03-17T20:33:34Z
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-qtdoc
+
+PackageName: QmlAssetDownloaderPrivate
+SPDXID: SPDXRef-Package-qtdoc-qt-module-QmlAssetDownloaderPrivate
+PackageDownloadLocation: git://code.qt.io/qt/qtdoc.git
+PackageVersion: 6.11.0
+PackageSupplier: Organization: TheQtCompany
+PackageLicenseConcluded: LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only
+PackageLicenseDeclared: LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only
+ExternalRef: PACKAGE-MANAGER purl pkg:github/qt/qtdoc?library_name=QmlAssetDownloaderPrivate#src/assetdownloader
+ExternalRef: PACKAGE-MANAGER purl pkg:generic/TheQtCompany/qtdoc-QmlAssetDownloaderPrivate?vcs_url=https://code.qt.io/qt/qtdoc.git&library_name=QmlAssetDownloaderPrivate#src/assetdownloader
+PackageCopyrightText: <text>Copyright (C) The Qt Company Ltd. and other contributors.</text>
+PrimaryPackagePurpose: LIBRARY
+PackageComment: <text>
+CMake target name: QmlAssetDownloaderPrivate
+CMake exported target name: Qt6::QmlAssetDownloader
+Contained in CMake package: Qt6QmlAssetDownloaderPrivate
+</text>
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:qt:qt:6.11.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:qt:qtdoc:6.11.0:*:*:*:*:*:*:*
+PackageVerificationCode: 6a14d4e2479c5746ee72080c680695c18300606a
+FilesAnalyzed: true
+Relationship: SPDXRef-Package-qtdoc-qt-module-QmlAssetDownloaderPrivate DEPENDS_ON DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-Core
+Relationship: SPDXRef-Package-qtdoc-qt-module-QmlAssetDownloaderPrivate DEPENDS_ON DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-PlatformModuleInternal
+Relationship: SPDXRef-Package-qtdoc-qt-module-QmlAssetDownloaderPrivate DEPENDS_ON DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-Concurrent
+Relationship: SPDXRef-Package-qtdoc-qt-module-QmlAssetDownloaderPrivate DEPENDS_ON DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-Network
+Relationship: SPDXRef-Package-qtdoc-qt-module-QmlAssetDownloaderPrivate DEPENDS_ON DocumentRef-qtdeclarative:SPDXRef-Package-qtdeclarative-qt-module-Qml
+Relationship: SPDXRef-Package-qtdoc-qt-module-QmlAssetDownloaderPrivate DEPENDS_ON DocumentRef-qttasktree:SPDXRef-Package-qttasktree-qt-module-TaskTree
+Relationship: SPDXRef-Package-qtdoc CONTAINS SPDXRef-Package-qtdoc-qt-module-QmlAssetDownloaderPrivate
+
+FileName: ./lib/Qt6QmlAssetDownloader.lib
+SPDXID: SPDXRef-PackagedFile-qt-module-QmlAssetDownloaderPrivate-RelWithDebInfo
+FileType: BINARY
+FileChecksum: SHA1: 770c9a5bcf160aa6418bd5fe7f6328407bf4b24f
+LicenseConcluded: LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only
+FileCopyrightText: <text>Copyright (C) The Qt Company Ltd. and other contributors.</text>
+LicenseInfoInFile: NOASSERTION
+Relationship: SPDXRef-Package-qtdoc-qt-module-QmlAssetDownloaderPrivate CONTAINS SPDXRef-PackagedFile-qt-module-QmlAssetDownloaderPrivate-RelWithDebInfo
+Relationship: SPDXRef-PackagedFile-qt-module-QmlAssetDownloaderPrivate-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qtdoc/src/assetdownloader/assetdownloader.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-QmlAssetDownloaderPrivate-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qtdoc/src/assetdownloader/assetdownloader.h
+Relationship: SPDXRef-PackagedFile-qt-module-QmlAssetDownloaderPrivate-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qtdoc/src/assetdownloader/qqmlassetdownloader_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-QmlAssetDownloaderPrivate-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qtdoc/src/assetdownloader/qqmlassetdownloader.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-QmlAssetDownloaderPrivate-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: /build_dir/qtdoc/src/assetdownloader/qmlassetdownloaderprivate_qmltyperegistrations.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-QmlAssetDownloaderPrivate-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: /build_dir/qtdoc/src/assetdownloader/.qt/rcc/qrc_qmake_Qt_labs_assetdownloader.cpp
+
+FileName: ./lib/Qt6QmlAssetDownloaderd.lib
+SPDXID: SPDXRef-PackagedFile-qt-module-QmlAssetDownloaderPrivate-Debug
+FileType: BINARY
+FileChecksum: SHA1: 3664f20eb63cb21e086bd7c669cca07ef1afff97
+LicenseConcluded: LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only
+FileCopyrightText: <text>Copyright (C) The Qt Company Ltd. and other contributors.</text>
+LicenseInfoInFile: NOASSERTION
+Relationship: SPDXRef-Package-qtdoc-qt-module-QmlAssetDownloaderPrivate CONTAINS SPDXRef-PackagedFile-qt-module-QmlAssetDownloaderPrivate-Debug
+Relationship: SPDXRef-PackagedFile-qt-module-QmlAssetDownloaderPrivate-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qtdoc/src/assetdownloader/assetdownloader.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-QmlAssetDownloaderPrivate-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qtdoc/src/assetdownloader/assetdownloader.h
+Relationship: SPDXRef-PackagedFile-qt-module-QmlAssetDownloaderPrivate-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qtdoc/src/assetdownloader/qqmlassetdownloader_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-QmlAssetDownloaderPrivate-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qtdoc/src/assetdownloader/qqmlassetdownloader.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-QmlAssetDownloaderPrivate-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: /build_dir/qtdoc/src/assetdownloader/qmlassetdownloaderprivate_qmltyperegistrations.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-QmlAssetDownloaderPrivate-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: /build_dir/qtdoc/src/assetdownloader/.qt/rcc/qrc_qmake_Qt_labs_assetdownloader.cpp
+
+PackageName: QmlAssetDownloaderPrivateplugin
+SPDXID: SPDXRef-Package-qtdoc-qt-plugin-QmlAssetDownloaderPrivateplugin
+PackageDownloadLocation: git://code.qt.io/qt/qtdoc.git
+PackageVersion: 6.11.0
+PackageSupplier: Organization: TheQtCompany
+PackageLicenseConcluded: LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only
+PackageLicenseDeclared: LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only
+ExternalRef: PACKAGE-MANAGER purl pkg:github/qt/qtdoc?library_name=QmlAssetDownloaderPrivateplugin#src/assetdownloader
+ExternalRef: PACKAGE-MANAGER purl pkg:generic/TheQtCompany/qtdoc-QmlAssetDownloaderPrivateplugin?vcs_url=https://code.qt.io/qt/qtdoc.git&library_name=QmlAssetDownloaderPrivateplugin#src/assetdownloader
+PackageCopyrightText: <text>Copyright (C) The Qt Company Ltd. and other contributors.</text>
+PrimaryPackagePurpose: LIBRARY
+PackageComment: <text>
+CMake target name: QmlAssetDownloaderPrivateplugin
+</text>
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:qt:qt:6.11.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:qt:qtdoc:6.11.0:*:*:*:*:*:*:*
+PackageVerificationCode: c26d865d611948d709800e854382918b8cef5432
+FilesAnalyzed: true
+Relationship: SPDXRef-Package-qtdoc-qt-plugin-QmlAssetDownloaderPrivateplugin DEPENDS_ON DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-PlatformPluginInternal
+Relationship: SPDXRef-Package-qtdoc-qt-plugin-QmlAssetDownloaderPrivateplugin DEPENDS_ON DocumentRef-qtdeclarative:SPDXRef-Package-qtdeclarative-qt-module-Qml
+Relationship: SPDXRef-Package-qtdoc-qt-plugin-QmlAssetDownloaderPrivateplugin DEPENDS_ON SPDXRef-Package-qtdoc-qt-module-QmlAssetDownloaderPrivate
+Relationship: SPDXRef-Package-qtdoc CONTAINS SPDXRef-Package-qtdoc-qt-plugin-QmlAssetDownloaderPrivateplugin
+
+FileName: ./qml/Qt/labs/assetdownloader/qmlassetdownloaderprivateplugin.lib
+SPDXID: SPDXRef-PackagedFile-qt-plugin-QmlAssetDownloaderPrivateplugin-RelWithDebInfo
+FileType: BINARY
+FileChecksum: SHA1: 714304ca60ea30c4c37ca378b6e29dcebf398c60
+LicenseConcluded: LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only
+FileCopyrightText: <text>Copyright (C) The Qt Company Ltd. and other contributors.</text>
+LicenseInfoInFile: NOASSERTION
+Relationship: SPDXRef-Package-qtdoc-qt-plugin-QmlAssetDownloaderPrivateplugin CONTAINS SPDXRef-PackagedFile-qt-plugin-QmlAssetDownloaderPrivateplugin-RelWithDebInfo
+Relationship: SPDXRef-PackagedFile-qt-plugin-QmlAssetDownloaderPrivateplugin-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: /build_dir/qtdoc/src/assetdownloader/QmlAssetDownloaderPrivateplugin_Qt_labs_assetdownloaderPlugin.cpp
+
+FileName: ./qml/Qt/labs/assetdownloader/qmlassetdownloaderprivateplugind.lib
+SPDXID: SPDXRef-PackagedFile-qt-plugin-QmlAssetDownloaderPrivateplugin-Debug
+FileType: BINARY
+FileChecksum: SHA1: 26ddc22f78b11818a7c37df68b6a88b651eb3452
+LicenseConcluded: LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only
+FileCopyrightText: <text>Copyright (C) The Qt Company Ltd. and other contributors.</text>
+LicenseInfoInFile: NOASSERTION
+Relationship: SPDXRef-Package-qtdoc-qt-plugin-QmlAssetDownloaderPrivateplugin CONTAINS SPDXRef-PackagedFile-qt-plugin-QmlAssetDownloaderPrivateplugin-Debug
+Relationship: SPDXRef-PackagedFile-qt-plugin-QmlAssetDownloaderPrivateplugin-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: /build_dir/qtdoc/src/assetdownloader/QmlAssetDownloaderPrivateplugin_Qt_labs_assetdownloaderPlugin.cpp
+
+LicenseID: LicenseRef-Qt-Commercial
+ExtractedText: <text>Licensees holding valid commercial Qt licenses may use this software in
+accordance with the terms contained in a written agreement between
+you and The Qt Company. Alternatively, the terms and conditions that were
+accepted by the licensee when buying and/or downloading the
+software do apply.
+
+For the latest licensing terms and conditions, see https://www.qt.io/terms-conditions.
+For further information use the contact form at https://www.qt.io/contact-us.
+</text>

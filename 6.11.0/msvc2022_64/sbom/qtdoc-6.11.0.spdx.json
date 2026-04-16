@@ -1,0 +1,430 @@
+{
+    "SPDXID": "SPDXRef-DOCUMENT",
+    "creationInfo": {
+        "created": "2026-03-17T20:33:34Z",
+        "creators": [
+            "Organization: TheQtCompany",
+            "Tool: Qt Build System"
+        ],
+        "comment": "This SPDX document was created from CMake 3.30.5, using the qt\nbuild system from https://code.qt.io/cgit/qt/qtbase.git/tree/cmake/QtPublicSbomHelpers.cmake"
+    },
+    "dataLicense": "CC0-1.0",
+    "externalDocumentRefs": [
+        {
+            "externalDocumentId": "DocumentRef-qtbase",
+            "spdxDocument": "https://qt.io/spdxdocs/qtbase-8ba7ea4b+HEAD-host-windows-amd64-target-windows-msvc-amd64-28440e83-5de2-5713-913f-0c7b6d652144",
+            "checksum": {
+                "algorithm": "SHA1",
+                "checksumValue": "4b63c595e3feb2ef60b5252ef5a9a5e189c07d6f"
+            }
+        },
+        {
+            "externalDocumentId": "DocumentRef-qtdeclarative",
+            "spdxDocument": "https://qt.io/spdxdocs/qtdeclarative-e602a097+HEAD-host-windows-amd64-target-windows-msvc-amd64-c49b67e1-b044-5a61-9d0c-8ce7fe33aab8",
+            "checksum": {
+                "algorithm": "SHA1",
+                "checksumValue": "1c49f050d7a40d4097d935859fb1b533c350f32e"
+            }
+        },
+        {
+            "externalDocumentId": "DocumentRef-qttasktree",
+            "spdxDocument": "https://qt.io/spdxdocs/qttasktree-4d594e7+HEAD-host-windows-amd64-target-windows-msvc-amd64-ff076c19-1776-5b9b-b6f8-1cc9888aa3cd",
+            "checksum": {
+                "algorithm": "SHA1",
+                "checksumValue": "6d6658d31e9cfcd3ba2e9d3503721053c869e906"
+            }
+        }
+    ],
+    "hasExtractedLicensingInfos": [
+        {
+            "extractedText": "Licensees holding valid commercial Qt licenses may use this software in\naccordance with the terms contained in a written agreement between\nyou and The Qt Company. Alternatively, the terms and conditions that were\naccepted by the licensee when buying and/or downloading the\nsoftware do apply.\n\nFor the latest licensing terms and conditions, see https://www.qt.io/terms-conditions.\nFor further information use the contact form at https://www.qt.io/contact-us.\n",
+            "licenseId": "LicenseRef-Qt-Commercial"
+        }
+    ],
+    "name": "qtdoc-6.11.0",
+    "spdxVersion": "SPDX-2.3",
+    "documentNamespace": "https://qt.io/spdxdocs/qtdoc-6.11.0-host-windows-amd64-target-windows-msvc-amd64-26f4ed92-f440-533f-ab8a-aafc32b65728",
+    "packages": [
+        {
+            "SPDXID": "SPDXRef-compiler",
+            "copyrightText": "NOASSERTION",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "licenseConcluded": "NOASSERTION",
+            "licenseDeclared": "NOASSERTION",
+            "name": "MSVC",
+            "primaryPackagePurpose": "APPLICATION",
+            "summary": "The compiler as identified by CMake, running on Windows (AMD64)",
+            "supplier": "Organization: Anonymous",
+            "versionInfo": "19.39.33520.0"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-qtdoc",
+            "builtDate": "2026-03-17T20:33:34Z",
+            "comment": "Built by CMake 3.30.5 with RelWithDebInfo;Debug configuration for Windows (AMD64)\nqtdoc was configured with:\n    qt-configure-module <sources>/qtdoc -- -DFFMPEG_DIR=C:\\FFmpeg-n7.1.3\\build\\msvc\\installed -DQT_DEPLOY_FFMPEG=TRUE -DFEATURE_clangcpp=OFF -DINPUT_headersclean=ON -DCMAKE_MAKE_PROGRAM=C:\\Utils\\Ninja\\ninja.exe -DQT_INSTALL_CONFIG_INFO_FILES=ON -DQT_GENERATE_SBOM=ON -DQT_GENERATE_SOURCE_SBOM=ON -DQT_SBOM_REQUIRE_GENERATE_CYDX_V1_6=ON -DQT_SBOM_VERIFY_CYDX_V1_6=ON -DQT_SBOM_PYTHON_INTERP=C:\\Python310_64\\python.exe -DQT_SBOM_PYTHON_APPS_PATH=C:\\Python310_64\\Scripts -DQT_LINT_SOURCE_SBOM=ON -DQT_INTERNAL_SBOM_DEFAULT_CHECKS=ON -DQT_INTERNAL_SBOM_AUDIT=ON -DQT_INTERNAL_SBOM_AUDIT_NO_ERROR=ON -DQT_BUILD_TESTS=OFF -DCMAKE_AUTOGEN_VERBOSE=ON -DCMAKE_MESSAGE_LOG_LEVEL=STATUS -DCMAKE_C_COMPILER_LAUNCHER=sccache -DCMAKE_CXX_COMPILER_LAUNCHER=sccache -DBUILD_WITH_PCH=OFF\n",
+            "copyrightText": "Copyright (C) The Qt Company Ltd. and other contributors.",
+            "downloadLocation": "git://code.qt.io/qt/qtdoc.git",
+            "externalRefs": [
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceLocator": "cpe:2.3:a:qt:qtdoc:6.11.0:*:*:*:*:*:*:*",
+                    "referenceType": "cpe23Type"
+                },
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:generic/TheQtCompany/qtdoc@6.11.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "homepage": "https://qt.io",
+            "licenseConcluded": "NOASSERTION",
+            "licenseDeclared": "NOASSERTION",
+            "name": "qtdoc",
+            "supplier": "Organization: TheQtCompany",
+            "versionInfo": "6.11.0"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-qtdoc-qt-module-QmlAssetDownloaderPrivate",
+            "comment": "\nCMake target name: QmlAssetDownloaderPrivate\nCMake exported target name: Qt6::QmlAssetDownloader\nContained in CMake package: Qt6QmlAssetDownloaderPrivate\n",
+            "copyrightText": "Copyright (C) The Qt Company Ltd. and other contributors.",
+            "downloadLocation": "git://code.qt.io/qt/qtdoc.git",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:github/qt/qtdoc?library_name=QmlAssetDownloaderPrivate#src/assetdownloader",
+                    "referenceType": "purl"
+                },
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:generic/TheQtCompany/qtdoc-QmlAssetDownloaderPrivate?vcs_url=https://code.qt.io/qt/qtdoc.git&library_name=QmlAssetDownloaderPrivate#src/assetdownloader",
+                    "referenceType": "purl"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceLocator": "cpe:2.3:a:qt:qt:6.11.0:*:*:*:*:*:*:*",
+                    "referenceType": "cpe23Type"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceLocator": "cpe:2.3:a:qt:qtdoc:6.11.0:*:*:*:*:*:*:*",
+                    "referenceType": "cpe23Type"
+                }
+            ],
+            "filesAnalyzed": true,
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "licenseDeclared": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "name": "QmlAssetDownloaderPrivate",
+            "packageVerificationCode": {
+                "packageVerificationCodeValue": "6a14d4e2479c5746ee72080c680695c18300606a"
+            },
+            "primaryPackagePurpose": "LIBRARY",
+            "supplier": "Organization: TheQtCompany",
+            "versionInfo": "6.11.0"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-qtdoc-qt-plugin-QmlAssetDownloaderPrivateplugin",
+            "comment": "\nCMake target name: QmlAssetDownloaderPrivateplugin\n",
+            "copyrightText": "Copyright (C) The Qt Company Ltd. and other contributors.",
+            "downloadLocation": "git://code.qt.io/qt/qtdoc.git",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:github/qt/qtdoc?library_name=QmlAssetDownloaderPrivateplugin#src/assetdownloader",
+                    "referenceType": "purl"
+                },
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:generic/TheQtCompany/qtdoc-QmlAssetDownloaderPrivateplugin?vcs_url=https://code.qt.io/qt/qtdoc.git&library_name=QmlAssetDownloaderPrivateplugin#src/assetdownloader",
+                    "referenceType": "purl"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceLocator": "cpe:2.3:a:qt:qt:6.11.0:*:*:*:*:*:*:*",
+                    "referenceType": "cpe23Type"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceLocator": "cpe:2.3:a:qt:qtdoc:6.11.0:*:*:*:*:*:*:*",
+                    "referenceType": "cpe23Type"
+                }
+            ],
+            "filesAnalyzed": true,
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "licenseDeclared": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "name": "QmlAssetDownloaderPrivateplugin",
+            "packageVerificationCode": {
+                "packageVerificationCodeValue": "c26d865d611948d709800e854382918b8cef5432"
+            },
+            "primaryPackagePurpose": "LIBRARY",
+            "supplier": "Organization: TheQtCompany",
+            "versionInfo": "6.11.0"
+        }
+    ],
+    "files": [
+        {
+            "SPDXID": "SPDXRef-PackagedFile-qt-module-QmlAssetDownloaderPrivate-RelWithDebInfo",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "770c9a5bcf160aa6418bd5fe7f6328407bf4b24f"
+                }
+            ],
+            "copyrightText": "Copyright (C) The Qt Company Ltd. and other contributors.",
+            "fileName": "./lib/Qt6QmlAssetDownloader.lib",
+            "fileTypes": [
+                "BINARY"
+            ],
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "licenseInfoInFiles": [
+                "NOASSERTION"
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-PackagedFile-qt-module-QmlAssetDownloaderPrivate-Debug",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "3664f20eb63cb21e086bd7c669cca07ef1afff97"
+                }
+            ],
+            "copyrightText": "Copyright (C) The Qt Company Ltd. and other contributors.",
+            "fileName": "./lib/Qt6QmlAssetDownloaderd.lib",
+            "fileTypes": [
+                "BINARY"
+            ],
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "licenseInfoInFiles": [
+                "NOASSERTION"
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-PackagedFile-qt-plugin-QmlAssetDownloaderPrivateplugin-RelWithDebInfo",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "714304ca60ea30c4c37ca378b6e29dcebf398c60"
+                }
+            ],
+            "copyrightText": "Copyright (C) The Qt Company Ltd. and other contributors.",
+            "fileName": "./qml/Qt/labs/assetdownloader/qmlassetdownloaderprivateplugin.lib",
+            "fileTypes": [
+                "BINARY"
+            ],
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "licenseInfoInFiles": [
+                "NOASSERTION"
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-PackagedFile-qt-plugin-QmlAssetDownloaderPrivateplugin-Debug",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "26ddc22f78b11818a7c37df68b6a88b651eb3452"
+                }
+            ],
+            "copyrightText": "Copyright (C) The Qt Company Ltd. and other contributors.",
+            "fileName": "./qml/Qt/labs/assetdownloader/qmlassetdownloaderprivateplugind.lib",
+            "fileTypes": [
+                "BINARY"
+            ],
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "licenseInfoInFiles": [
+                "NOASSERTION"
+            ]
+        }
+    ],
+    "relationships": [
+        {
+            "spdxElementId": "SPDXRef-compiler",
+            "comment": "SPDXRef-Package-qtdoc is built by compiler MSVC version 19.39.33520.0",
+            "relatedSpdxElement": "SPDXRef-Package-qtdoc",
+            "relationshipType": "BUILD_DEPENDENCY_OF"
+        },
+        {
+            "spdxElementId": "SPDXRef-DOCUMENT",
+            "relatedSpdxElement": "SPDXRef-Package-qtdoc",
+            "relationshipType": "DESCRIBES"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtdoc-qt-module-QmlAssetDownloaderPrivate",
+            "relatedSpdxElement": "DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-Core",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtdoc-qt-module-QmlAssetDownloaderPrivate",
+            "relatedSpdxElement": "DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-PlatformModuleInternal",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtdoc-qt-module-QmlAssetDownloaderPrivate",
+            "relatedSpdxElement": "DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-Concurrent",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtdoc-qt-module-QmlAssetDownloaderPrivate",
+            "relatedSpdxElement": "DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-Network",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtdoc-qt-module-QmlAssetDownloaderPrivate",
+            "relatedSpdxElement": "DocumentRef-qtdeclarative:SPDXRef-Package-qtdeclarative-qt-module-Qml",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtdoc-qt-module-QmlAssetDownloaderPrivate",
+            "relatedSpdxElement": "DocumentRef-qttasktree:SPDXRef-Package-qttasktree-qt-module-TaskTree",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtdoc",
+            "relatedSpdxElement": "SPDXRef-Package-qtdoc-qt-module-QmlAssetDownloaderPrivate",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtdoc-qt-module-QmlAssetDownloaderPrivate",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-module-QmlAssetDownloaderPrivate-RelWithDebInfo",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtdoc-qt-module-QmlAssetDownloaderPrivate",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-module-QmlAssetDownloaderPrivate-RelWithDebInfo",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-QmlAssetDownloaderPrivate-RelWithDebInfo",
+            "comment": "/src_dir/qtdoc/src/assetdownloader/assetdownloader.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-QmlAssetDownloaderPrivate-RelWithDebInfo",
+            "comment": "/src_dir/qtdoc/src/assetdownloader/assetdownloader.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-QmlAssetDownloaderPrivate-RelWithDebInfo",
+            "comment": "/src_dir/qtdoc/src/assetdownloader/qqmlassetdownloader_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-QmlAssetDownloaderPrivate-RelWithDebInfo",
+            "comment": "/src_dir/qtdoc/src/assetdownloader/qqmlassetdownloader.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-QmlAssetDownloaderPrivate-RelWithDebInfo",
+            "comment": "/build_dir/qtdoc/src/assetdownloader/qmlassetdownloaderprivate_qmltyperegistrations.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-QmlAssetDownloaderPrivate-RelWithDebInfo",
+            "comment": "/build_dir/qtdoc/src/assetdownloader/.qt/rcc/qrc_qmake_Qt_labs_assetdownloader.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtdoc-qt-module-QmlAssetDownloaderPrivate",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-module-QmlAssetDownloaderPrivate-Debug",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtdoc-qt-module-QmlAssetDownloaderPrivate",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-module-QmlAssetDownloaderPrivate-Debug",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-QmlAssetDownloaderPrivate-Debug",
+            "comment": "/src_dir/qtdoc/src/assetdownloader/assetdownloader.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-QmlAssetDownloaderPrivate-Debug",
+            "comment": "/src_dir/qtdoc/src/assetdownloader/assetdownloader.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-QmlAssetDownloaderPrivate-Debug",
+            "comment": "/src_dir/qtdoc/src/assetdownloader/qqmlassetdownloader_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-QmlAssetDownloaderPrivate-Debug",
+            "comment": "/src_dir/qtdoc/src/assetdownloader/qqmlassetdownloader.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-QmlAssetDownloaderPrivate-Debug",
+            "comment": "/build_dir/qtdoc/src/assetdownloader/qmlassetdownloaderprivate_qmltyperegistrations.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-QmlAssetDownloaderPrivate-Debug",
+            "comment": "/build_dir/qtdoc/src/assetdownloader/.qt/rcc/qrc_qmake_Qt_labs_assetdownloader.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtdoc-qt-plugin-QmlAssetDownloaderPrivateplugin",
+            "relatedSpdxElement": "DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-PlatformPluginInternal",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtdoc-qt-plugin-QmlAssetDownloaderPrivateplugin",
+            "relatedSpdxElement": "DocumentRef-qtdeclarative:SPDXRef-Package-qtdeclarative-qt-module-Qml",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtdoc-qt-plugin-QmlAssetDownloaderPrivateplugin",
+            "relatedSpdxElement": "SPDXRef-Package-qtdoc-qt-module-QmlAssetDownloaderPrivate",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtdoc",
+            "relatedSpdxElement": "SPDXRef-Package-qtdoc-qt-plugin-QmlAssetDownloaderPrivateplugin",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtdoc-qt-plugin-QmlAssetDownloaderPrivateplugin",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-plugin-QmlAssetDownloaderPrivateplugin-RelWithDebInfo",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtdoc-qt-plugin-QmlAssetDownloaderPrivateplugin",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-plugin-QmlAssetDownloaderPrivateplugin-RelWithDebInfo",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-QmlAssetDownloaderPrivateplugin-RelWithDebInfo",
+            "comment": "/build_dir/qtdoc/src/assetdownloader/QmlAssetDownloaderPrivateplugin_Qt_labs_assetdownloaderPlugin.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtdoc-qt-plugin-QmlAssetDownloaderPrivateplugin",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-plugin-QmlAssetDownloaderPrivateplugin-Debug",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtdoc-qt-plugin-QmlAssetDownloaderPrivateplugin",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-plugin-QmlAssetDownloaderPrivateplugin-Debug",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-QmlAssetDownloaderPrivateplugin-Debug",
+            "comment": "/build_dir/qtdoc/src/assetdownloader/QmlAssetDownloaderPrivateplugin_Qt_labs_assetdownloaderPlugin.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        }
+    ]
+}
